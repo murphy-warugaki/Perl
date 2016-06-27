@@ -1,0 +1,13 @@
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Column.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Column/Pg.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Driver/Base.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Driver/Pg.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Driver/SQLite.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Driver/mysql.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/ForeignKey.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/ForeignKey/Pg.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Iterator.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Iterator/Null.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Table.pm
+/Users/shinya.nishimoto/Perl/Cpan/local/lib/perl5/DBIx/Inspector/Table/Pg.pm

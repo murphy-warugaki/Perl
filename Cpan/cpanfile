@@ -1,0 +1,11 @@
+requires "Catalyst";
+requires "Plack";
+requires "DBD::SQLite";
+requires "Test::Mock::Guard";
+requires "Test::Pretty";
+requires "common::sense";
+requires "Plack";
+requires "Mojolicious::Lite";
+requires "List::Util";
+requires "Teng";
+requires "List::Util";

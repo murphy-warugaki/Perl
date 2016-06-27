@@ -1,0 +1,25 @@
+#!/Users/shinya.nishimoto/.anyenv/envs/plenv/versions/5.19.6/bin/perl5.19.6
+
+eval 'exec /Users/shinya.nishimoto/.anyenv/envs/plenv/versions/5.19.6/bin/perl5.19.6  -S $0 ${1+"$@"}'
+    if 0; # not running under some shell
+
+use strict;
+use warnings;
+# PODNAME: moose-outdated
+
+# this script was generated with Dist::Zilla::Plugin::Conflicts 0.18
+
+use Getopt::Long;
+use Moose::Conflicts;
+
+my $verbose;
+GetOptions( 'verbose|v' => \$verbose );
+
+if ($verbose) {
+    Moose::Conflicts->check_conflicts;
+}
+else {
+    my @conflicts = Moose::Conflicts->calculate_conflicts;
+    print "$_\n" for map { $_->{package} } @conflicts;
+    exit @conflicts;
+}
