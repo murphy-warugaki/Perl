@@ -10,3 +10,5 @@ requires "Mojolicious::Lite";
 requires "List::Util";
 requires "Teng";
 requires "List::Util";
+requires "DateTime";
+requires "FormValidator::Lite";
