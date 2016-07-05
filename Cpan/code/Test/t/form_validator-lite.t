@@ -12,7 +12,7 @@ $class->load_constraints(qw(Number));
      subtest 'OK' => sub {
          my $validator = $class->new({ month => 1 });
          $validator->check(month => [ [ BETWEEN => qw(1 12) ] ],);
- 
+ warn Dumper $validator->query;
          ok $validator->is_valid;
      };
      subtest 'NG' => sub {
