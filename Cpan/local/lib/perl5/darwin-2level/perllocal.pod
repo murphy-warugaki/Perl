@@ -2352,3 +2352,91 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Tue Jul  5 15:04:00 2016: C<Module> L<Date::Parse|Date::Parse>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.30>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Jul  5 15:04:01 2016: C<Module> L<Mail|Mail>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.18>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Jul  5 15:04:02 2016: C<Module> L<Email::Valid|Email::Valid>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.200>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Tue Jul  5 15:04:03 2016: C<Module> L<Email::Valid::Loose|Email::Valid::Loose>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.05>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
