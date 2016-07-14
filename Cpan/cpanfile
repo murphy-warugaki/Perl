@@ -12,3 +12,5 @@ requires "Teng";
 requires "List::Util";
 requires "DateTime";
 requires "FormValidator::Lite";
+requires "Perl::Tidy";
+
