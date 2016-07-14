@@ -2877,6 +2877,16 @@ DISTRIBUTIONS
       Test::SharedFork 0.29
       Time::HiRes 0
       perl 5.008001
+  Text-CSV_XS-1.24
+    pathname: H/HM/HMBRAND/Text-CSV_XS-1.24.tgz
+    provides:
+      Text::CSV_XS 1.24
+    requirements:
+      Config 0
+      DynaLoader 0
+      ExtUtils::MakeMaker 0
+      IO::Handle 0
+      Test::More 0
   Text-SimpleTable-2.03
     pathname: M/MR/MRAMBERG/Text-SimpleTable-2.03.tar.gz
     provides:

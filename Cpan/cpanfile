@@ -13,4 +13,4 @@ requires "List::Util";
 requires "DateTime";
 requires "FormValidator::Lite";
 requires "Perl::Tidy";
-
+requires "Text::CSV_XS";
