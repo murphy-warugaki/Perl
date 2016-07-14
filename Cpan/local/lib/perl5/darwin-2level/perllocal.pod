@@ -2440,3 +2440,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Thu Jul 14 11:56:13 2016: C<Module> L<Perl::Tidy|Perl::Tidy>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20160302>
+
+=item *
+
+C<EXE_FILES: bin/perltidy>
+
+=back
+
