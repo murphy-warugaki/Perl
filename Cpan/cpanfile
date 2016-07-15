@@ -14,3 +14,5 @@ requires "DateTime";
 requires "FormValidator::Lite";
 requires "Perl::Tidy";
 requires "Text::CSV_XS";
+requires "Getopt::Long";
+requires "SQL::Maker::Condition";
