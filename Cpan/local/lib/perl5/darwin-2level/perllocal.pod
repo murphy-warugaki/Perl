@@ -2484,3 +2484,25 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Mon Aug  8 10:42:31 2016: C<Module> L<String::CamelCase|String::CamelCase>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.02>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

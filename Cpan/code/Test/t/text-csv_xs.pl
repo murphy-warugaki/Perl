@@ -2,17 +2,13 @@ use common::sense;
 
 use Test::More;
 use Test::Pretty;
-use Data::Dumper;
 
 my $class = 'Text::CSV_XS';
 use_ok $class;
 
 subtest 'example' => sub {
 
-    #my $csv = Text::CSV_XS->new({ binary => 1, always_quote => 1, sep_char => "\t", });
-    #my $test = $csv->say(*STDOUT, [qw(id, name)]);
-    my $csv = Text::CSV_XS->new;
-
+    my $csv                 = Text::CSV_XS->new({ binary => 1, });
     my $column              = '';
     my $sample_input_string = '"I said, ""Hi!""",Yes,"",2.34,,"1.09"';
     if ($csv->parse($sample_input_string)) {
@@ -24,5 +20,12 @@ subtest 'example' => sub {
         print "\n";
     }
     ok $csv;
+};
+
+subtest 'I/O' => sub {
+    my $csv = Text::CSV_XS->new({ binary => 1, });
+    my $fh = IO::File->new('< code/first_perl/test.dat') or die $!;
+    my $row = $csv->getline($fh);
+    is $$row[0], 'fred';
 };
 done_testing;
