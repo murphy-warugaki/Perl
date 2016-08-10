@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   1629
-Last-Updated: Mon Aug  8 10:42:27 2016
+Line-Count:   1651
+Last-Updated: Wed Aug 10 18:53:09 2016
 
 aliased                            0.34  E/ET/ETHER/aliased-0.34.tar.gz
 Apache::LogFormat::Compiler        0.33  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.33.tar.gz
@@ -83,6 +83,7 @@ Class::Inspector::Functions        1.28  A/AD/ADAMK/Class-Inspector-1.28.tar.gz
 Class::Load                        0.23  E/ET/ETHER/Class-Load-0.23.tar.gz
 Class::Load::PP                    0.23  E/ET/ETHER/Class-Load-0.23.tar.gz
 Class::Load::XS                    0.09  E/ET/ETHER/Class-Load-XS-0.09.tar.gz
+Class::Method::Modifiers           2.12  E/ET/ETHER/Class-Method-Modifiers-2.12.tar.gz
 Class::MOP                       2.1804  E/ET/ETHER/Moose-2.1804.tar.gz
 Class::MOP::Attribute            2.1804  E/ET/ETHER/Moose-2.1804.tar.gz
 Class::MOP::Class                2.1804  E/ET/ETHER/Moose-2.1804.tar.gz
@@ -801,6 +802,10 @@ Mail::Mailer::testfile::pipe       2.18  M/MA/MARKOV/MailTools-2.18.tar.gz
 Mail::Send                         2.18  M/MA/MARKOV/MailTools-2.18.tar.gz
 Mail::Util                         2.18  M/MA/MARKOV/MailTools-2.18.tar.gz
 metaclass                        2.1804  E/ET/ETHER/Moose-2.1804.tar.gz
+Method::Generate::Accessor        undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Method::Generate::BuildAll        undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Method::Generate::Constructor     undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Method::Generate::DemolishAll     undef  H/HA/HAARG/Moo-2.002004.tar.gz
 Module::Build                    0.4218  L/LE/LEONT/Module-Build-0.4218.tar.gz
 Module::Build::Base              0.4218  L/LE/LEONT/Module-Build-0.4218.tar.gz
 Module::Build::Compat            0.4218  L/LE/LEONT/Module-Build-0.4218.tar.gz
@@ -931,6 +936,17 @@ Mojolicious::Static               undef  S/SR/SRI/Mojolicious-6.66.tar.gz
 Mojolicious::Types                undef  S/SR/SRI/Mojolicious-6.66.tar.gz
 Mojolicious::Validator            undef  S/SR/SRI/Mojolicious-6.66.tar.gz
 Mojolicious::Validator::Validation undef  S/SR/SRI/Mojolicious-6.66.tar.gz
+Moo                            2.002004  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::_mro                         undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::_strictures                  undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::_Utils                       undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::HandleMoose                  undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::HandleMoose::_TypeMap        undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::HandleMoose::FakeConstructor undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::HandleMoose::FakeMetaClass   undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::Object                       undef  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::Role                      2.002004  H/HA/HAARG/Moo-2.002004.tar.gz
+Moo::sification                   undef  H/HA/HAARG/Moo-2.002004.tar.gz
 Moose                            2.1804  E/ET/ETHER/Moose-2.1804.tar.gz
 Moose::Cookbook                  2.1804  E/ET/ETHER/Moose-2.1804.tar.gz
 Moose::Cookbook::Basics::BankAccount_MethodModifiersAndSubclassing 2.1804  E/ET/ETHER/Moose-2.1804.tar.gz
@@ -1324,6 +1340,7 @@ Net::HTTP::Methods                 6.09  E/ET/ETHER/Net-HTTP-6.09.tar.gz
 Net::HTTP::NB                      6.09  E/ET/ETHER/Net-HTTP-6.09.tar.gz
 Net::HTTPS                         6.09  E/ET/ETHER/Net-HTTP-6.09.tar.gz
 ojo                               undef  S/SR/SRI/Mojolicious-6.66.tar.gz
+oo                                undef  H/HA/HAARG/Moo-2.002004.tar.gz
 oose                             2.1804  E/ET/ETHER/Moose-2.1804.tar.gz
 Package::DeprecationManager        0.16  D/DR/DROLSKY/Package-DeprecationManager-0.16.tar.gz
 Package::Stash                     0.37  D/DO/DOY/Package-Stash-0.37.tar.gz
@@ -1435,6 +1452,8 @@ Plack::Util::Accessor             undef  M/MI/MIYAGAWA/Plack-1.0039.tar.gz
 Plack::Util::IOWithPath           undef  M/MI/MIYAGAWA/Plack-1.0039.tar.gz
 Plack::Util::Prototype            undef  M/MI/MIYAGAWA/Plack-1.0039.tar.gz
 POSIX::strftime::Compiler          0.41  K/KA/KAZEBURO/POSIX-strftime-Compiler-0.41.tar.gz
+Role::Tiny                     2.000003  H/HA/HAARG/Role-Tiny-2.000003.tar.gz
+Role::Tiny::With               2.000003  H/HA/HAARG/Role-Tiny-2.000003.tar.gz
 Safe::Isa                      1.000005  E/ET/ETHER/Safe-Isa-1.000005.tar.gz
 Scalar::Util                       1.45  P/PE/PEVANS/Scalar-List-Utils-1.45.tar.gz
 Scope::Guard                       0.21  C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz
@@ -1452,7 +1471,9 @@ Stream::Buffered                   0.03  D/DO/DOY/Stream-Buffered-0.03.tar.gz
 Stream::Buffered::Auto            undef  D/DO/DOY/Stream-Buffered-0.03.tar.gz
 Stream::Buffered::File            undef  D/DO/DOY/Stream-Buffered-0.03.tar.gz
 Stream::Buffered::PerlIO          undef  D/DO/DOY/Stream-Buffered-0.03.tar.gz
+String::CamelCase                  0.02  H/HI/HIO/String-CamelCase-0.02.tar.gz
 String::RewritePrefix             0.007  R/RJ/RJBS/String-RewritePrefix-0.007.tar.gz
+Sub::Defer                     2.002004  H/HA/HAARG/Moo-2.002004.tar.gz
 Sub::Exporter                     0.987  R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
 Sub::Exporter::ForMethods      0.100052  R/RJ/RJBS/Sub-Exporter-ForMethods-0.100052.tar.gz
 Sub::Exporter::Progressive     0.001011  F/FR/FREW/Sub-Exporter-Progressive-0.001011.tar.gz
@@ -1460,6 +1481,7 @@ Sub::Exporter::Util               0.987  R/RJ/RJBS/Sub-Exporter-0.987.tar.gz
 Sub::Identify                      0.12  R/RG/RGARCIA/Sub-Identify-0.12.tar.gz
 Sub::Install                      0.928  R/RJ/RJBS/Sub-Install-0.928.tar.gz
 Sub::Name                          0.15  E/ET/ETHER/Sub-Name-0.15.tar.gz
+Sub::Quote                     2.002004  H/HA/HAARG/Moo-2.002004.tar.gz
 Sub::Uplevel                       0.25  D/DA/DAGOLDEN/Sub-Uplevel-0.25.tar.gz
 Sub::Util                          1.45  P/PE/PEVANS/Scalar-List-Utils-1.45.tar.gz
 TAP::Formatter::Pretty::Multi     undef  T/TO/TOKUHIROM/Test-Pretty-0.32.tar.gz
