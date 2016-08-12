@@ -16,3 +16,8 @@ requires "Perl::Tidy";
 requires "Text::CSV_XS";
 requires "Getopt::Long";
 requires "SQL::Maker::Condition";
+requires "Mojolicious::Lite";
+requires "String::CamelCase";
+requires "Moo";
+requires "File::Path";
+requires "IO::File";
