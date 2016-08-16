@@ -7,25 +7,24 @@ use Data::Dumper;
 use_ok 'Getopt::Long';
 
 subtest 'basecally usage' => sub {
-    my $data   = "file.dat";
+    my $data;
     my $length = 24;
     my $verbose;
-
-    my $test = GetOptions(
+# carton exec -- perl % --data=option_name;で通るようになっている 
+    GetOptions(
         "length=i" => \$length,    #int
-        "file=s"   => \$data,      #string
+        "data=s"   => \$data,      #string 引数で使える
         "verbose"  => \$verbose    #flag
-    ) or die("Error in command line arguments\n");
-    ok $test;
+    );
+    die("Error in command line arguments\n") if not $data;
+    is $data, 'option_name';
 };
 
 my $blob = test_func($_) for glob "code/first_perl/test.dat";
-warn Dumper $blob;
 
 sub test_func {
     my $str = shift;
-    print $str'\n';
+    print $str"\n";
 }
 
 done_testing;
-
