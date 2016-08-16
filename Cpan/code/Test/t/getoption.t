@@ -18,3 +18,14 @@ subtest 'basecally usage' => sub {
     ) or die("Error in command line arguments\n");
     ok $test;
 };
+
+my $blob = test_func($_) for glob "code/first_perl/test.dat";
+warn Dumper $blob;
+
+sub test_func {
+    my $str = shift;
+    print $str'\n';
+}
+
+done_testing;
+
