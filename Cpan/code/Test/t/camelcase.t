@@ -5,9 +5,10 @@ use Test::More;
 use Test::Pretty;
 
 use String::CamelCase qw(camelize decamelize wordsplit);
-my $class = 'String::CamelCase';
 
+my $class = 'String::CamelCase';
 use_ok $class;
+
 subtest Camelize => sub {
     subtest 'Nomal' => sub {
         my $camelize = camelize("some_keys");
@@ -16,8 +17,8 @@ subtest Camelize => sub {
 
     subtest 'Variable on decamelize' => sub {
         my $arg  = "SomeKeyword";
-        my $test = decamelize($arg);
-        is $test, 'some_keyword';
+        my $decamelize = decamelize($arg);
+        is $decamelize, 'some_keyword';
     };
 };
 
