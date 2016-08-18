@@ -1,10 +1,12 @@
 use common::sense;
-
+use Data::Dumper;
 use Test::More;
 use Test::Pretty;
 
 my $class = 'Text::CSV_XS';
 use_ok $class;
+
+use IO::File;
 
 subtest 'example' => sub {
 
