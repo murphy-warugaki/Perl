@@ -1,7 +1,6 @@
 use common::sense;
 use Data::Dumper;
 
-
 # create array
 my @array;
 # or 
@@ -43,3 +42,7 @@ my @sorted = sort @people; # 3名の list context
 # pattern of scalar
 my $number = 42 + @people; # 3という数値の scalar cotest
 
+# scalar localtime
+my $time_str = localtime(); # 日付・時刻を文字列で取得
+# list localtime
+my @datatime = localtime();
