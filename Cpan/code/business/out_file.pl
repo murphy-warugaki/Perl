@@ -1,12 +1,10 @@
-use strict;
-use warnings;
-use utf8;
+use common::sense;
+use Data::Dumper;
 
-open(my $here_in,   "<", "test.dat") or die("u are not open");
-open(my $from_here, ">", "test.out") or die("u can not wrrite");
-while (<$here_in>) {
-    print $from_here $_;
+open( my $in, "<", "code/business/test.dat") or die("u are not open");
+
+while (<$in>) {
+    print "$_";
 }
 
-close($here_in);
-close($from_here);
+close($in);
