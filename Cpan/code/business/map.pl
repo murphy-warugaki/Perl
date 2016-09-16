@@ -1,14 +1,23 @@
 use common::sense;
 use Data::Dumper;
 
-my $hash = {
+my $hash_ref = {
+    hoge_ref => '1',
+    fuga_ref => '2',
+    foo_ref  => '3',
+    bar_ref  => '4',
+};
+
+my %hash = (
     hoge => '1',
     fuga => '2',
     foo  => '3',
     bar  => '4',
-};
+);
 
-warn Dumper map {'murphsy.'. $_ => $hash->{$_},} keys %$hash;
+my @array = qw(1 yamada 2 hanako);
+my %test;
+%test = @array; 
 
 # aout map
 # 1 ) リストのアイテムを1つずつ$_に格納する
