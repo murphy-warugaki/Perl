@@ -21,3 +21,5 @@ requires "String::CamelCase";
 requires "Moo";
 requires "File::Path";
 requires "IO::File";
+requires "Exporter";
+requires "Params::Validate";
