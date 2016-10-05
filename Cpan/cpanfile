@@ -24,3 +24,4 @@ requires "IO::File";
 requires "Exporter";
 requires "Params::Validate";
 requires "Mojo::URL";
+requires "Text::Xslate";

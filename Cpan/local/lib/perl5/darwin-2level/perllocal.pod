@@ -2572,3 +2572,91 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Mon Sep 26 18:44:59 2016: C<Module> L<File::Copy::Recursive|File::Copy::Recursive>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.38>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 26 18:45:09 2016: C<Module> L<Devel::PPPort|Devel::PPPort>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.35>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 26 18:45:18 2016: C<Module> L<Data::MessagePack|Data::MessagePack>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.00>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Sep 26 18:45:20 2016: C<Module> L<Text::Xslate|Text::Xslate>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 3.3.9>
+
+=item *
+
+C<EXE_FILES: script/xslate>
+
+=back
+
