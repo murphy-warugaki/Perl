@@ -1,6 +1,8 @@
 use common::sense;
 use Data::Dumper;
 
+#methodを実装していく
+#forで探したいキーを回して一致したらハッシュにいれてリファレンスにして返す
 sub filter_keys {
     my ($data, $keys) = @_;
     my %result;
@@ -11,6 +13,10 @@ sub filter_keys {
     \%result;
 }
 
+#どのようなキーならフィルターを通るのか@にして書く
+my @my_keys = qw(accept_email hog);
+
+#JSON dataを変数にして呼び出す
 my $data = {
     hoge         => 'hoge',
     fuga         => 'Rfuga',
@@ -19,8 +25,7 @@ my $data = {
     accept_email => 1,
 };
 
-my @my_keys = qw( accept_email hog);
-
+#アクセサーを書く(@をリファレンス化して渡す)
 my $result = filter_keys($data, \@my_keys);
 
 warn Dumper $result;
