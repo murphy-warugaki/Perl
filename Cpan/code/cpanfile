@@ -1,11 +1,11 @@
 requires "Catalyst";
 requires "Plack";
+requires "Plack::Request";
 requires "DBD::SQLite";
 requires "Test::Mock::Guard";
 requires "Test::Pretty";
 requires "Test::More";
 requires "common::sense";
-requires "Plack";
 requires "Mojolicious::Lite";
 requires "List::Util";
 requires "Teng";

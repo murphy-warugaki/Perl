@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   1761
-Last-Updated: Mon Oct 31 11:30:43 2016
+Line-Count:   1765
+Last-Updated: Mon Oct 31 12:57:18 2016
 
 aliased                            0.34  E/ET/ETHER/aliased-0.34.tar.gz
 Apache::LogFormat::Compiler        0.33  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.33.tar.gz
@@ -1503,6 +1503,10 @@ Plack::Util::Prototype            undef  M/MI/MIYAGAWA/Plack-1.0042.tar.gz
 POSIX::strftime::Compiler          0.42  K/KA/KAZEBURO/POSIX-strftime-Compiler-0.42.tar.gz
 Role::Tiny                     2.000003  H/HA/HAARG/Role-Tiny-2.000003.tar.gz
 Role::Tiny::With               2.000003  H/HA/HAARG/Role-Tiny-2.000003.tar.gz
+Router::Simple                     0.17  T/TO/TOKUHIROM/Router-Simple-0.17.tar.gz
+Router::Simple::Declare           undef  T/TO/TOKUHIROM/Router-Simple-0.17.tar.gz
+Router::Simple::Route             undef  T/TO/TOKUHIROM/Router-Simple-0.17.tar.gz
+Router::Simple::SubMapper         undef  T/TO/TOKUHIROM/Router-Simple-0.17.tar.gz
 Safe::Isa                      1.000005  E/ET/ETHER/Safe-Isa-1.000005.tar.gz
 Scalar::Util                       1.46  P/PE/PEVANS/Scalar-List-Utils-1.46.tar.gz
 Scope::Guard                       0.21  C/CH/CHOCOLATE/Scope-Guard-0.21.tar.gz
