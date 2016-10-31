@@ -1,6 +1,5 @@
-use strict;
-use warnings;
-use utf8;
+use common::sense;
+use Data::Dumper;
 
 my $app = sub {
     my $env = shift;

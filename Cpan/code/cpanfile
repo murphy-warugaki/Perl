@@ -25,3 +25,4 @@ requires "Exporter";
 requires "Params::Validate";
 requires "Mojo::URL";
 requires "Text::Xslate";
+requires "Router::Simple";
