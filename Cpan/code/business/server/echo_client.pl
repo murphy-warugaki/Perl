@@ -18,7 +18,8 @@ my $packed_remote_host = inet_aton($remote_host) or die "Cannot pack $remote_hos
 my $remote_port = 9000;
 
 # ホスト名とポート番号をパック化
-my $sock_addr = sockaddr_in($remote_port, $packed_remote_host) or die "Cannot pack $remote_host:$remote_port:$!";
+my $sock_addr = sockaddr_in($remote_port, $packed_remote_host)
+    or die "Cannot pack $remote_host:$remote_port:$!";
 
 # 3 ソケットを使って接続
 connect($sock, $sock_addr) or die "Cannot connect $remote_host:$remote_port:$!";
@@ -26,7 +27,7 @@ connect($sock, $sock_addr) or die "Cannot connect $remote_host:$remote_port:$!";
 # 4 データの書き込み
 # 書き込みバッファリングをしない
 my $old_handle = select $sock;
-$l = 1;
+$| = 1;
 select $old_handle;
 
 print $sock "Hello";
