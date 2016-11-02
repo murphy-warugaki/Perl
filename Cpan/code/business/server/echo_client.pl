@@ -25,4 +25,20 @@ connect($sock, $sock_addr) or die "Cannot connect $remote_host:$remote_port:$!";
 
 # 4 データの書き込み
 # 書き込みバッファリングをしない
-my 
+my $old_handle = select $sock;
+$l = 1;
+select $old_handle;
+
+print $sock "Hello";
+
+# 書き込みを終了する
+shutdown $sock, 1;
+
+# 5 ) データの読み込み
+while (my $line = <$sock>) {
+    print $line;
+}
+
+# 6 ) ソケットを閉じる
+close $sock;
+
