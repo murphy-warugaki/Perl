@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   1765
-Last-Updated: Mon Oct 31 12:57:18 2016
+Line-Count:   1778
+Last-Updated: Tue Nov  8 13:36:54 2016
 
 aliased                            0.34  E/ET/ETHER/aliased-0.34.tar.gz
 Apache::LogFormat::Compiler        0.33  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.33.tar.gz
@@ -15,6 +15,7 @@ B::Hooks::EndOfScope               0.21  E/ET/ETHER/B-Hooks-EndOfScope-0.21.tar.
 B::Hooks::EndOfScope::PP           0.21  E/ET/ETHER/B-Hooks-EndOfScope-0.21.tar.gz
 B::Hooks::EndOfScope::XS           0.21  E/ET/ETHER/B-Hooks-EndOfScope-0.21.tar.gz
 Bundle::DBI                    12.008696  T/TI/TIMB/DBI-1.636.tar.gz
+Canary::Stability                  2012  M/ML/MLEHMANN/Canary-Stability-2012.tar.gz
 Carp::Clan                         6.06  K/KE/KENTNL/Carp-Clan-6.06.tar.gz
 Catalyst                        5.90112  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90112.tar.gz
 Catalyst::Action                  undef  J/JJ/JJNAPIORK/Catalyst-Runtime-5.90112.tar.gz
@@ -764,8 +765,9 @@ IO::WrapTie::Master               2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::WrapTie::Slave                2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 JSON::MaybeXS                  1.003008  E/ET/ETHER/JSON-MaybeXS-1.003008.tar.gz
 JSON::PP                        2.27400  M/MA/MAKAMAKA/JSON-PP-2.27400.tar.gz
-JSON::PP::Boolean               2.27400  M/MA/MAKAMAKA/JSON-PP-2.27400.tar.gz
+JSON::PP::Boolean                   1.0  M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
 JSON::PP::IncrParser            2.27400  M/MA/MAKAMAKA/JSON-PP-2.27400.tar.gz
+JSON::XS                           3.02  M/ML/MLEHMANN/JSON-XS-3.02.tar.gz
 List::MoreUtils                   0.416  R/RE/REHSACK/List-MoreUtils-0.416.tar.gz
 List::MoreUtils::PP               0.416  R/RE/REHSACK/List-MoreUtils-0.416.tar.gz
 List::MoreUtils::XS               0.416  R/RE/REHSACK/List-MoreUtils-0.416.tar.gz
@@ -1710,6 +1712,9 @@ Tree::Simple::Visitor::ToNestedHash 0.15  R/RS/RSAVAGE/Tree-Simple-VisitorFactor
 Tree::Simple::Visitor::VariableDepthClone 0.15  R/RS/RSAVAGE/Tree-Simple-VisitorFactory-0.15.tgz
 Tree::Simple::VisitorFactory       0.15  R/RS/RSAVAGE/Tree-Simple-VisitorFactory-0.15.tgz
 Try::Tiny                          0.27  E/ET/ETHER/Try-Tiny-0.27.tar.gz
+Types::Serialiser                   1.0  M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
+Types::Serialiser::BooleanBase      1.0  M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
+Types::Serialiser::Error            1.0  M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
 URI                                1.71  E/ET/ETHER/URI-1.71.tar.gz
 URI::_foreign                      1.71  E/ET/ETHER/URI-1.71.tar.gz
 URI::_generic                      1.71  E/ET/ETHER/URI-1.71.tar.gz
@@ -1766,6 +1771,14 @@ URI::WithBase                      2.20  E/ET/ETHER/URI-1.71.tar.gz
 URI::ws                            0.03  P/PL/PLICEASE/URI-ws-0.03.tar.gz
 URI::wss                           0.03  P/PL/PLICEASE/URI-ws-0.03.tar.gz
 Variable::Magic                    0.60  V/VP/VPIT/Variable-Magic-0.60.tar.gz
+WebService::SOP::Auth::V1_1        0.04  Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
+WebService::SOP::Auth::V1_1::Request::DELETE undef  Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
+WebService::SOP::Auth::V1_1::Request::GET undef  Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
+WebService::SOP::Auth::V1_1::Request::POST undef  Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
+WebService::SOP::Auth::V1_1::Request::POST_JSON undef  Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
+WebService::SOP::Auth::V1_1::Request::PUT undef  Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
+WebService::SOP::Auth::V1_1::Request::PUT_JSON undef  Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
+WebService::SOP::Auth::V1_1::Util undef  Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
 WWW::Form::UrlEncoded              0.23  K/KA/KAZEBURO/WWW-Form-UrlEncoded-0.23.tar.gz
 WWW::Form::UrlEncoded::PP         undef  K/KA/KAZEBURO/WWW-Form-UrlEncoded-0.23.tar.gz
 WWW::RobotRules                    6.02  G/GA/GAAS/WWW-RobotRules-6.02.tar.gz

@@ -84,6 +84,12 @@ DISTRIBUTIONS
       perl 5.008001
       strict 0
       warnings 0
+  Canary-Stability-2012
+    pathname: M/ML/MLEHMANN/Canary-Stability-2012.tar.gz
+    provides:
+      Canary::Stability 2012
+    requirements:
+      ExtUtils::MakeMaker 0
   Carp-Clan-6.06
     pathname: K/KE/KENTNL/Carp-Clan-6.06.tar.gz
     provides:
@@ -1489,6 +1495,15 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       Test::More 0
+  JSON-XS-3.02
+    pathname: M/ML/MLEHMANN/JSON-XS-3.02.tar.gz
+    provides:
+      JSON::XS 3.02
+    requirements:
+      Canary::Stability 0
+      ExtUtils::MakeMaker 6.52
+      Types::Serialiser 0
+      common::sense 0
   LWP-MediaTypes-6.02
     pathname: G/GA/GAAS/LWP-MediaTypes-6.02.tar.gz
     provides:
@@ -3338,6 +3353,16 @@ DISTRIBUTIONS
       perl 5.006
       strict 0
       warnings 0
+  Types-Serialiser-1.0
+    pathname: M/ML/MLEHMANN/Types-Serialiser-1.0.tar.gz
+    provides:
+      JSON::PP::Boolean 1.0
+      Types::Serialiser 1.0
+      Types::Serialiser::BooleanBase 1.0
+      Types::Serialiser::Error 1.0
+    requirements:
+      ExtUtils::MakeMaker 0
+      common::sense 0
   URI-1.71
     pathname: E/ET/ETHER/URI-1.71.tar.gz
     provides:
@@ -3449,6 +3474,25 @@ DISTRIBUTIONS
       ExtUtils::MakeMaker 0
       Fcntl 0
       URI 1.10
+      perl 5.008001
+  WebService-SOP-Auth-V1_1-0.04
+    pathname: Y/YO/YOWCOW/WebService-SOP-Auth-V1_1-0.04.tar.gz
+    provides:
+      WebService::SOP::Auth::V1_1 0.04
+      WebService::SOP::Auth::V1_1::Request::DELETE undef
+      WebService::SOP::Auth::V1_1::Request::GET undef
+      WebService::SOP::Auth::V1_1::Request::POST undef
+      WebService::SOP::Auth::V1_1::Request::POST_JSON undef
+      WebService::SOP::Auth::V1_1::Request::PUT undef
+      WebService::SOP::Auth::V1_1::Request::PUT_JSON undef
+      WebService::SOP::Auth::V1_1::Util undef
+    requirements:
+      Carp 0
+      Digest::SHA 0
+      HTTP::Request::Common 6.07
+      JSON::XS 0
+      Module::Build::Tiny 0.035
+      URI 0
       perl 5.008001
   XSLoader-0.24
     pathname: S/SA/SAPER/XSLoader-0.24.tar.gz

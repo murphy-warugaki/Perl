@@ -26,3 +26,5 @@ requires "Params::Validate";
 requires "Mojo::URL";
 requires "Text::Xslate";
 requires "Router::Simple";
+requires "WebService::SOP::Auth::V1_1";
+requires "HTTP::Request";

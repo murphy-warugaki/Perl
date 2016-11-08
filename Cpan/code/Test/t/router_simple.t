@@ -6,9 +6,12 @@ use Test::Pretty;
 use Router::Simple;
 
 my $class = "Router::Simple";
-use_ok $class;
 
-my $router = $class->new();
+subtest 'hogehoge' => sub {
+    use_ok $class;
 
+    my $router = $class->new();
+    warn Dumper $router->connect('/surveys/{format}', { command => 'RespondentSurveys,'});
+};
 
 done_testing;

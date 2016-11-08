@@ -8,10 +8,12 @@ use Plack::Request;
 my $class = "Plack::Request";
 use_ok $class;
 
-#subtest 'Hoge' => sub {
-    # これが必要 my $env = shift;
-    #my $req = Plack::Request->new(GET);
-    #warn Dumper $req;
-#};
+subtest 'Hoge' => sub {
+    my $env = { hogehoge => 'fugafuga' };
+    my $req = Plack::Request->new($env);
+
+    # PlackRequest objectの env dataを生成
+    isa_ok $req, $class;
+};
 
 done_testing;
