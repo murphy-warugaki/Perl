@@ -28,3 +28,6 @@ requires "Text::Xslate";
 requires "Router::Simple";
 requires "WebService::SOP::Auth::V1_1";
 requires "HTTP::Request";
+requires "HTTP::Request::Common";
+requires "URI";
+requires "Plack::Test";

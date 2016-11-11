@@ -14,7 +14,6 @@ socket($sock, PF_INET, SOCK_STREAM, getprotobyname('tcp')) or die "Cannnot creat
 # インターネットドメインの場合:PF_INET, UNIXドメインの場合:PF_UNIX
 
 # 2 ) ソケット情報の作成
-
 # connectでソケットつなぐんやけど、接続先のアドレスとポード番号が必須だよね。先にそれを作りましょう。
 
 # 2-1 ) 接続先のホスト名
@@ -54,4 +53,3 @@ while (my $line = <$sock>) {
 
 # 6 ) ソケットを閉じる
 close $sock;
-
