@@ -5,9 +5,9 @@ use Plack::Request;
 
 my $app = sub {
     my $req = Plack::Request->new(shift);
-
+warn Dumper $req;
+    
     my $res = $req->new_response(200);
-
     $res->content_type('application/json');
     $res->body(encode_json(+{
         method => $req->method, # リクエストのHTTPメソッド

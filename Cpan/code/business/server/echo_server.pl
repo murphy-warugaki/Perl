@@ -49,6 +49,8 @@ while (accept($sock_client, $sock_receive)) {
     }
 
     # クライエントへのデータの書き込み
-    print $sock_client "echo: $content";
+    print $sock_client "HTTP/1.0 404 Not Found", Socket::CRLF;
+    print $sock_client Socket::CRLF;
+    print $sock_client "<html><body>404 Not Found</body></html>";
     close $sock_client;
 }
