@@ -2858,3 +2858,25 @@ C<EXE_FILES: bin/json_xs>
 
 =back
 
+=head2 Mon Nov 28 17:43:15 2016: C<Module> L<Date::Time|Date::Time>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/code/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 0.01>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+

@@ -1,0 +1,1 @@
+{"target":"Date::Time","version":"0.01","dist":"OO-DateTime-0.01","pathname":"T/TO/TOBIX/OO-DateTime-0.01.tar.gz","name":"Date::Time","provides":{"Date::Time::UnixTime":{"version":"0.01","file":"Time.pm"},"Date::Time":{"file":"Time.pm","version":"0.01"}}}

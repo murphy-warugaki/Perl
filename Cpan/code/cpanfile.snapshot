@@ -2433,6 +2433,13 @@ DISTRIBUTIONS
       IO::Uncompress::Gunzip 0
       URI 0
       perl 5.006002
+  OO-DateTime-0.01
+    pathname: T/TO/TOBIX/OO-DateTime-0.01.tar.gz
+    provides:
+      Date::Time 0.01
+      Date::Time::UnixTime 0.01
+    requirements:
+      ExtUtils::MakeMaker 0
   POSIX-strftime-Compiler-0.42
     pathname: K/KA/KAZEBURO/POSIX-strftime-Compiler-0.42.tar.gz
     provides:

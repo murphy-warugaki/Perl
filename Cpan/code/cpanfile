@@ -31,3 +31,4 @@ requires "HTTP::Request";
 requires "HTTP::Request::Common";
 requires "URI";
 requires "Plack::Test";
+requires "Date::Time";

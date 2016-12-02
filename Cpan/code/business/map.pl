@@ -19,7 +19,7 @@ my @array = qw(1 yamada 2 hanako);
 my %test;
 %test = @array; 
 
-# aout map
+# about [map
 # 1 ) リストのアイテムを1つずつ$_に格納する
 # 2 ) 構文は式形式とブロック形式
 # 3 ) map式はテスト式ではなく変換式
