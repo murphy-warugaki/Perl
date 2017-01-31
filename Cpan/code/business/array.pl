@@ -5,6 +5,7 @@ use Data::Dumper;
 
 
 my @name = qw(tanaka sakaki tanabe uchida);
+
 =put
 my $y = 2;
 print "This is $name[1]";

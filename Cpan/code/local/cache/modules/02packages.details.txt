@@ -4,8 +4,8 @@ Description:  Package names found in cpanfile.snapshot
 Columns:      package name, version, path
 Intended-For: Automated fetch routines, namespace documentation.
 Written-By:   Carton v1.0.28
-Line-Count:   1778
-Last-Updated: Mon Nov 28 17:43:04 2016
+Line-Count:   1794
+Last-Updated: Sun Jan 29 16:59:05 2017
 
 aliased                            0.34  E/ET/ETHER/aliased-0.34.tar.gz
 Apache::LogFormat::Compiler        0.33  K/KA/KAZEBURO/Apache-LogFormat-Compiler-0.33.tar.gz
@@ -162,6 +162,8 @@ Date::Language::TigrinyaEritrean   1.00  G/GB/GBARR/TimeDate-2.30.tar.gz
 Date::Language::TigrinyaEthiopian  1.00  G/GB/GBARR/TimeDate-2.30.tar.gz
 Date::Language::Turkish             1.0  G/GB/GBARR/TimeDate-2.30.tar.gz
 Date::Parse                        2.30  G/GB/GBARR/TimeDate-2.30.tar.gz
+Date::Time                         0.01  T/TO/TOBIX/OO-DateTime-0.01.tar.gz
+Date::Time::UnixTime               0.01  T/TO/TOBIX/OO-DateTime-0.01.tar.gz
 DateTime                           1.39  D/DR/DROLSKY/DateTime-1.39.tar.gz
 DateTime::Duration                 1.39  D/DR/DROLSKY/DateTime-1.39.tar.gz
 DateTime::Helpers                  1.39  D/DR/DROLSKY/DateTime-1.39.tar.gz
@@ -758,6 +760,15 @@ IO::Lines                         2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::Scalar                        2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::ScalarArray                   2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::Socket::IP                     0.38  P/PE/PEVANS/IO-Socket-IP-0.38.tar.gz
+IO::Socket::SSL                   2.043  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+IO::Socket::SSL::Intercept        2.014  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+IO::Socket::SSL::OCSP_Cache       2.043  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+IO::Socket::SSL::OCSP_Resolver    2.043  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+IO::Socket::SSL::PublicSuffix     undef  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+IO::Socket::SSL::Session_Cache    2.043  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+IO::Socket::SSL::SSL_Context      2.043  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+IO::Socket::SSL::SSL_HANDLE       2.043  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+IO::Socket::SSL::Utils            2.014  S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
 IO::Stringy                       2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::Wrap                          2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
 IO::WrapTie                       2.111  D/DS/DSKOLL/IO-stringy-2.111.tar.gz
@@ -792,6 +803,8 @@ LWP::Protocol::gopher             undef  E/ET/ETHER/libwww-perl-6.15.tar.gz
 LWP::Protocol::http               undef  E/ET/ETHER/libwww-perl-6.15.tar.gz
 LWP::Protocol::http::Socket       undef  E/ET/ETHER/libwww-perl-6.15.tar.gz
 LWP::Protocol::http::SocketMethods undef  E/ET/ETHER/libwww-perl-6.15.tar.gz
+LWP::Protocol::https               6.06  M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+LWP::Protocol::https::Socket       6.06  M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
 LWP::Protocol::loopback           undef  E/ET/ETHER/libwww-perl-6.15.tar.gz
 LWP::Protocol::mailto             undef  E/ET/ETHER/libwww-perl-6.15.tar.gz
 LWP::Protocol::MyFTP              undef  E/ET/ETHER/libwww-perl-6.15.tar.gz
@@ -1378,6 +1391,7 @@ Mouse::TypeRegistry               undef  S/SY/SYOHEX/Mouse-v2.4.5.tar.gz
 Mouse::Util                      v2.4.5  S/SY/SYOHEX/Mouse-v2.4.5.tar.gz
 Mouse::Util::MetaRole             undef  S/SY/SYOHEX/Mouse-v2.4.5.tar.gz
 Mouse::Util::TypeConstraints      undef  S/SY/SYOHEX/Mouse-v2.4.5.tar.gz
+Mozilla::CA                    20160104  A/AB/ABH/Mozilla-CA-20160104.tar.gz
 MRO::Compat                        0.12  B/BO/BOBTFISH/MRO-Compat-0.12.tar.gz
 namespace::autoclean               0.28  E/ET/ETHER/namespace-autoclean-0.28.tar.gz
 namespace::clean                   0.27  R/RI/RIBASUSHI/namespace-clean-0.27.tar.gz
@@ -1386,6 +1400,8 @@ Net::HTTP                          6.09  E/ET/ETHER/Net-HTTP-6.09.tar.gz
 Net::HTTP::Methods                 6.09  E/ET/ETHER/Net-HTTP-6.09.tar.gz
 Net::HTTP::NB                      6.09  E/ET/ETHER/Net-HTTP-6.09.tar.gz
 Net::HTTPS                         6.09  E/ET/ETHER/Net-HTTP-6.09.tar.gz
+Net::SSLeay                        1.80  M/MI/MIKEM/Net-SSLeay-1.80.tar.gz
+Net::SSLeay::Handle                0.61  M/MI/MIKEM/Net-SSLeay-1.80.tar.gz
 ojo                               undef  S/SR/SRI/Mojolicious-7.08.tar.gz
 oo                                undef  H/HA/HAARG/Moo-2.002004.tar.gz
 oose                             2.1806  E/ET/ETHER/Moose-2.1806.tar.gz

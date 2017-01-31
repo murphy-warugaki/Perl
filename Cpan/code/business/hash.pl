@@ -33,3 +33,16 @@ my @values = values %names;
 delete $names{murphy};
 
 # murpshy が消えてnishimoto だけが残る
+
+my %opt = ();
+$opt{shinya} = 'nishimoto';
+
+# ハッシュのコピー
+my %hoge = (key => 1);
+my %fuga = %hoge;
+# コピーした先で値を代入
+$fuga{key} = 2;
+# 大元の値に変更はなし
+warn Dumper \%hoge;
+
+

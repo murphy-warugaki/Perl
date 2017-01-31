@@ -1456,6 +1456,23 @@ DISTRIBUTIONS
       IO::Socket 0
       Socket 1.97
       Test::More 0.88
+  IO-Socket-SSL-2.043
+    pathname: S/SU/SULLR/IO-Socket-SSL-2.043.tar.gz
+    provides:
+      IO::Socket::SSL 2.043
+      IO::Socket::SSL::Intercept 2.014
+      IO::Socket::SSL::OCSP_Cache 2.043
+      IO::Socket::SSL::OCSP_Resolver 2.043
+      IO::Socket::SSL::PublicSuffix undef
+      IO::Socket::SSL::SSL_Context 2.043
+      IO::Socket::SSL::SSL_HANDLE 2.043
+      IO::Socket::SSL::Session_Cache 2.043
+      IO::Socket::SSL::Utils 2.014
+    requirements:
+      ExtUtils::MakeMaker 0
+      Mozilla::CA 0
+      Net::SSLeay 1.46
+      Scalar::Util 0
   IO-stringy-2.111
     pathname: D/DS/DSKOLL/IO-stringy-2.111.tar.gz
     provides:
@@ -1511,6 +1528,18 @@ DISTRIBUTIONS
     requirements:
       ExtUtils::MakeMaker 0
       perl 5.006002
+  LWP-Protocol-https-6.06
+    pathname: M/MS/MSCHILLI/LWP-Protocol-https-6.06.tar.gz
+    provides:
+      LWP::Protocol::https 6.06
+      LWP::Protocol::https::Socket 6.06
+    requirements:
+      ExtUtils::MakeMaker 0
+      IO::Socket::SSL 1.54
+      LWP::UserAgent 6.06
+      Mozilla::CA 20110101
+      Net::HTTPS 6
+      perl 5.008001
   List-MoreUtils-0.416
     pathname: R/RE/REHSACK/List-MoreUtils-0.416.tar.gz
     provides:
@@ -2418,6 +2447,14 @@ DISTRIBUTIONS
       Scalar::Util 1.14
       XSLoader 0.02
       perl 5.008005
+  Mozilla-CA-20160104
+    pathname: A/AB/ABH/Mozilla-CA-20160104.tar.gz
+    provides:
+      Mozilla::CA 20160104
+    requirements:
+      ExtUtils::MakeMaker 0
+      Test 0
+      perl 5.006
   Net-HTTP-6.09
     pathname: E/ET/ETHER/Net-HTTP-6.09.tar.gz
     provides:
@@ -2433,6 +2470,16 @@ DISTRIBUTIONS
       IO::Uncompress::Gunzip 0
       URI 0
       perl 5.006002
+  Net-SSLeay-1.80
+    pathname: M/MI/MIKEM/Net-SSLeay-1.80.tar.gz
+    provides:
+      Net::SSLeay 1.80
+      Net::SSLeay::Handle 0.61
+    requirements:
+      ExtUtils::MakeMaker 6.36
+      MIME::Base64 0
+      Test::More 0.60_01
+      perl 5.005
   OO-DateTime-0.01
     pathname: T/TO/TOBIX/OO-DateTime-0.01.tar.gz
     provides:

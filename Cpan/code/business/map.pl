@@ -1,26 +1,27 @@
 use common::sense;
 use Data::Dumper;
 
-my $hash_ref = {
-    hoge_ref => '1',
-    fuga_ref => '2',
-    foo_ref  => '3',
-    bar_ref  => '4',
+my @hoge = qw(hoge foo baa fooo baaaaaa);
+
+my @foo = map { $_ } @hoge;
+
+# warn Dumper @foo;
+
+## create group;
+my $row = {
+    survey_id => 1111,
+    quota_id  => 2222,
+    fuoo      => 1111,
+    baaa      => 3333,
 };
 
-my %hash = (
-    hoge => '1',
-    fuga => '2',
-    foo  => '3',
-    bar  => '4',
-);
+my $row2 = {
+    survey_id => 1111,
+    quota_id  => 1111,
+    fuoo      => 1111,
+    baaa      => 3333,
+};
 
-my @array = qw(1 yamada 2 hanako);
-my %test;
-%test = @array; 
-
-# about [map
-# 1 ) リストのアイテムを1つずつ$_に格納する
-# 2 ) 構文は式形式とブロック形式
-# 3 ) map式はテスト式ではなく変換式
-# 4 ) $_ は何回でも使え、同じ値が入る
+my $test = { $row->{survey_id} => { $row->{quota_id} => [], }, };
+$test->{1111}->{2222} = [$row];
+warn Dumper $test;

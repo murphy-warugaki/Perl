@@ -2880,3 +2880,91 @@ C<EXE_FILES: >
 
 =back
 
+=head2 Mon Jan 16 15:43:22 2017: C<Module> L<Mozilla::CA|Mozilla::CA>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/code/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 20160104>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 16 15:43:30 2017: C<Module> L<Net::SSLeay|Net::SSLeay>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/code/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 1.80>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 16 15:43:31 2017: C<Module> L<IO::Socket::SSL|IO::Socket::SSL>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/code/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 2.043>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
+=head2 Mon Jan 16 15:43:31 2017: C<Module> L<LWP::Protocol::https|LWP::Protocol::https>
+
+=over 4
+
+=item *
+
+C<installed into: /Users/shinya.nishimoto/Perl/Perl/Cpan/code/local/lib/perl5>
+
+=item *
+
+C<LINKTYPE: dynamic>
+
+=item *
+
+C<VERSION: 6.06>
+
+=item *
+
+C<EXE_FILES: >
+
+=back
+
